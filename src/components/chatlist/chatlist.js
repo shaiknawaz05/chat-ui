@@ -6,9 +6,9 @@ export default class ChatList extends Component {
   ChatUsers = [
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+        "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
       id: 1,
-      name: "Robert",
+      name: "Robert Downey Jr",
       active: true,
  
     },

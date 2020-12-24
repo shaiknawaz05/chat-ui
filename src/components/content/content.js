@@ -10,56 +10,56 @@ function ChatContent() {
         {
             key: 1,
             image:
-                "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+                "https://pbs.twimg.com/profile_images/1342167159544299521/SU8IjfGy_400x400.jpg",
             type: "",
             msg: "Hi Robert, How are you?",
         },
         {
             key: 2,
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+                "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
             type: "other",
             msg: "I am fine.",
         },
         {
             key: 3,
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+                "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
             type: "other",
             msg: "What about you?",
         },
         {
             key: 4,
             image:
-                "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+                "https://pbs.twimg.com/profile_images/1342167159544299521/SU8IjfGy_400x400.jpg",
             type: "",
             msg: "Awesome these days.",
         },
         {
             key: 5,
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+                "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
             type: "other",
             msg: "Finally. What's the plan this weekend?",
         },
         {
             key: 6,
             image:
-                "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+                "https://pbs.twimg.com/profile_images/1342167159544299521/SU8IjfGy_400x400.jpg",
             type: "",
             msg: "what plan mate?",
         },
         {
             key: 7,
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+                "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
             type: "other",
             msg: "lets go to ooty",
         },
         {
           key: 8,
           image:
-              "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+              "https://pbs.twimg.com/profile_images/1342167159544299521/SU8IjfGy_400x400.jpg",
           type: "",
           msg: "okay sure..",
       },
@@ -85,9 +85,10 @@ function ChatContent() {
                 <div className="blocks">
                     <div className="current-chatting-user">
                         <Avatar
-                            image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
+                            image="https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg"
                         />
-                        <p>Robert</p>
+                       <strong> <p>Robert Downey Jr</p>
+                       </strong>
                     </div>
                 </div>
 
