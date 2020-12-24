@@ -4,36 +4,40 @@ import "./content.css";
 import Avatar from "../chatlist/avatar";
 import ChatItem from "./ChatItem";
 
+
 export default class ChatContent extends Component {
   messagesEndRef = createRef(null);
-  chatItms = [
+ chatItms=[
     {
       key: 1,
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Hi Robert, How are you?",
+      msg: "Hi Robert",
+      trigger:"2",
     },
     {
       key: 2,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "I am fine.",
+      msg: "Hiii..",
+      trigger:"3",
     },
     {
       key: 3,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "What about you?",
+      msg: "How are you bro?",
     },
     {
       key: 4,
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Awesome these days.",
+      msg: "Awesome",
+      trigger:"5",
     },
     {
       key: 5,
@@ -47,7 +51,8 @@ export default class ChatContent extends Component {
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "what plan mate?",
+      msg: "what?",
+      trigger:"7",
     },
     {
       key: 7,
@@ -57,6 +62,7 @@ export default class ChatContent extends Component {
       msg: "lets go to ooty",
     },
   ];
+
 
   constructor(props) {
     super(props);

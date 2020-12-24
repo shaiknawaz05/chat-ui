@@ -3,6 +3,7 @@ import Avatar from "../chatlist/avatar";
 
 export default class ChatItem extends Component {
 
+
   render() {
     return (
       <div
