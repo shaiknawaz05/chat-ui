@@ -10,7 +10,15 @@ export default class ChatList extends Component {
       id: 1,
       name: "Robert",
       active: true,
-      isOnline: true,
+ 
+    },
+    {
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+      id: 2,
+      name: "Nancy",
+      active: true,
+ 
     },
    
   ];
@@ -47,7 +55,7 @@ export default class ChatList extends Component {
               <ChatListItems
                 name={item.name}
                 key={item.id}
-                animationDelay={index + 1}
+                animationDelay={index + 5}
                 active={item.active ? "active" : ""}
                 isOnline={item.isOnline ? "active" : ""}
                 image={item.image}

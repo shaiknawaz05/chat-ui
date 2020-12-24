@@ -8,7 +8,7 @@ export default class Avatar extends Component {
         <div className="avatar-img">
           <img src={this.props.image} alt="#" />
         </div>
-        <span className={`isOnline ${this.props.isOnline}`}></span>
+       
       </div>
     );
   }
