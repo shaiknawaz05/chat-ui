@@ -32,7 +32,6 @@ export default class ChatListItems extends Component {
 
         <div className="userMeta">
           <p>{this.props.name}</p>
-         
         </div>
       </div>
     );
