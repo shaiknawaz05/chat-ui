@@ -3,6 +3,7 @@ import Avatar from "../chatlist/avatar";
 import ChatItem from "./ChatItem";
 import "./content.css";
 
+
 function ChatContent() {
     const messagesEndRef = useRef();
     const [msg, setMsg] = useState("");
@@ -54,7 +55,7 @@ function ChatContent() {
             image:
                 "https://pbs.twimg.com/profile_images/1342165429419003904/QfM6Dm4g_400x400.jpg",
             type: "other",
-            msg: "lets go to ooty",
+            msg: "lets go to a movie",
         },
         {
           key: 8,

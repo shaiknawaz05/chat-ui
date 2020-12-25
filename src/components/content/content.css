@@ -1,7 +1,7 @@
 .main__chatcontent {
   flex-grow: 1;
   padding: 20px 40px;
-  max-width: 63%;
+  max-width: 80%;
   border-right: 1px solid #ebe7fb;
 }
 .content__header {
@@ -38,11 +38,12 @@
   box-sizing: content-box;
   float: none;
   z-index: auto;
+  
   border: none;
   -webkit-border-radius: 13px 43px 0 10px;
   border-radius: 13px 43px 0 10px;
   color: rgba(255, 255, 255, 1);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   transform: scale(0);
   transform-origin: right;
   animation-name: ease-in;
@@ -67,7 +68,7 @@
   }
 }
 .chat__item .avatar {
-  margin-right: 0px;
+  margin-right: 10px;
   margin-left: 20px;
   background: #fff;
   padding: 1px;
